@@ -1,5 +1,5 @@
 ## FROM node:8
-FROM registry.centos.org/centos/nodejs-8-centos7:latest
+FROM node:latest
 
 WORKDIR /opt/app-root/src/
 
