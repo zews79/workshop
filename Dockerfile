@@ -1,15 +1,11 @@
-## comment 2
-
-FROM node:8
+## FROM node:8
+FROM registry.centos.org/centos/nodejs-8-centos7:latest
 
 WORKDIR /opt/app-root/src/
 
 COPY . .
-## COPY package*.json ./
 
 RUN npm install
-
-## COPY . .
 
 EXPOSE 8080
 
