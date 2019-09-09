@@ -2,7 +2,7 @@
 
 FROM node:8
 
-WORKDIR /usr/src/app
+WORKDIR /opt/app-root/src/
 
 COPY . .
 ## COPY package*.json ./
