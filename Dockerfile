@@ -3,7 +3,8 @@ FROM nodeshift/centos7-s2i-nodejs:latest
 
 WORKDIR /opt/app-root/src/
 
-RUN yum -y update && yum clean all
+RUN sudo yum -y update
+RUN sudo yum clean all
 
 COPY . .
 
