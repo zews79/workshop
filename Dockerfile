@@ -3,6 +3,8 @@ FROM nodeshift/centos7-s2i-nodejs:latest
 
 WORKDIR /opt/app-root/src/
 
+RUN yum -y update && yum clean all && 
+
 COPY . .
 
 RUN npm install
