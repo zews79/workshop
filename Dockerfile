@@ -1,10 +1,7 @@
 ## FROM node:8
-FROM nodeshift/centos7-s2i-nodejs:latest
+FROM nodeshift/centos7-s2i-nodejs:10.x
 
 WORKDIR /opt/app-root/src/
-
-RUN sudo yum -y update
-RUN sudo yum clean all
 
 COPY . .
 
