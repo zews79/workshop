@@ -1,4 +1,4 @@
-## comment
+## comment 2
 
 FROM nodeshift/centos7-s2i-nodejs:10.x
 
