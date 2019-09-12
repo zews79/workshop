@@ -1,3 +1,5 @@
+## comment
+
 FROM nodeshift/centos7-s2i-nodejs:10.x
 
 WORKDIR /opt/app-root/src/
