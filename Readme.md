@@ -19,7 +19,7 @@
 * On the next screen select your github organization and click **continue**
 * Select the **workshop** repository and click **continue**
 * Select **Trigger for all branches and tags (default)** and click continue
-* Select **/Dockerfil** from the drop down and click **continue**
+* Select **/Dockerfile** from the drop down and click **continue**
 * Select **/** as the context and click **continue**
 * Click **Continue** two more times for the robot account and ready to go
 * Click **return to your_account/your_repo** in the bottom right
